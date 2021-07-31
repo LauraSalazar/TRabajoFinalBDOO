@@ -11,6 +11,6 @@ public class Aeropuerto {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hello RESTEasy";
+        return "Hello Laura";
     }
 }
