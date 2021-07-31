@@ -1,4 +1,4 @@
-package org.bdoo;
+package com.bdoo;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
 
 @QuarkusTest
-public class aeropuertoTest {
+public class AeropuertoTest {
 
     @Test
     public void testHelloEndpoint() {
@@ -15,7 +15,7 @@ public class aeropuertoTest {
           .when().get("/aeropuerto")
           .then()
              .statusCode(200)
-             .body(is("Hello RESTEasy"));
+             .body(is("Hello Laura"));
     }
 
 }

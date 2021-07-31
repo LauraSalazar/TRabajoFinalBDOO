@@ -1,4 +1,4 @@
-package org.bdoo;
+package com.bdoo;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
