@@ -9,6 +9,7 @@ import static org.hamcrest.CoreMatchers.is;
 @QuarkusTest
 public class AeropuertoTest {
 
+/*
     @Test
     public void testHelloEndpoint() {
         given()
@@ -17,5 +18,6 @@ public class AeropuertoTest {
              .statusCode(200)
              .body(is("Hello Laura"));
     }
+*/
 
 }
